@@ -1,0 +1,21 @@
+{
+  "best_model": "GradientBoosting",
+  "features": [
+    "MedInc",
+    "HouseAge",
+    "AveRooms",
+    "AveBedrms",
+    "Population",
+    "AveOccup",
+    "Latitude",
+    "Longitude"
+  ],
+  "target": "MedHouseVal (median house value, in $100,000s)",
+  "metrics": {
+    "model": "GradientBoosting",
+    "rmse": 0.49649006049627264,
+    "mae": 0.33454337193291084,
+    "r2": 0.8118889718670131
+  },
+  "sklearn_dataset": "fetch_california_housing"
+}
